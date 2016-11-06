@@ -19,4 +19,10 @@ describe "Record" do
     expect(record.artist).to eq('Miles Davis')
   end
 
+  it '#purchase' do
+    record = Record.new('The Earth is Not a Cold Dead Place', 'Explosions in the Sky')
+
+    expect(record.purchase).to include(record)
+  end
+
 end
