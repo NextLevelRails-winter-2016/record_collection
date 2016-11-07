@@ -1,4 +1,4 @@
-require_relative '../record'
+require_relative 'spec_helper'
 
 describe "Record" do
   it 'instantiates an object with name and artist' do

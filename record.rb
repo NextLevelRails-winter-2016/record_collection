@@ -6,4 +6,9 @@ class Record
     @artist = artist
   end
 
+  def purchase
+    collection = []
+    collection.push(self)
+  end
+
 end
